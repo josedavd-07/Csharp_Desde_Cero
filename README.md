@@ -3,14 +3,16 @@ En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás
 
 01. Hola mundo en C# usando instrucciones de nivel superior.
 02. Hola Mundo en C# sin uso de instrucciones de nivel superior.
-03. Variables en C#
+03. Variables en C#.
 04. Tipos de datos:
     + int
     + double
     + float
+
 05. Tipo de dato string y sus metodos.
     + ToUpper()
     + ToLower()  
+
 06. Clase Console y sus metodos.
     + Write();
     + WriteLine();
@@ -18,6 +20,11 @@ En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás
     + Read();
     + ReadKey();
 
+07. Cambio de color en la Consola.
+     + ForegroundColor
+     + BackgroundColor
+     + ResetColor();
+     + Clear();
 
 ## Requisitos
 
