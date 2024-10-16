@@ -11,9 +11,9 @@ namespace _07_Cambiar_Colores_A_La_Consola_De_Ejecución
             //Cambiar el color del texto de la consola
             Console.WriteLine("Aca cambiamos el color del texto de la consola.");
 
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Green; //Asignamos color al texto con esta sentencia
             Console.WriteLine("\nEste texto es de color verde");
-            Console.ResetColor();
+            Console.ResetColor(); // Reseteamos el color del texto a su valor por defecto en este caso el blanco
 
             Console.WriteLine("\npresiona cualquiera tecla  para continuar con la ejecución del programa");
             Console.ReadKey();
@@ -32,16 +32,16 @@ namespace _07_Cambiar_Colores_A_La_Consola_De_Ejecución
             Console.Clear();
 
             //Cambio de fondo con texto completo.
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.BackgroundColor = ConsoleColor.White; //Asignamos color al fondo de la consola con esta sentencia
+            Console.ForegroundColor = ConsoleColor.Magenta; //Asignamos color al texto con esta sentencia
             Console.WriteLine($"{mensaje} y ahora junto con el fondo blanco pero aun falta" +
                 $" que todo sea blanco en la consola y lo veremos en la siguiente ejecucion");
-            Console.ResetColor();
+            Console.ResetColor(); // Reseteamos el color del texto a su valor por defecto en este caso el blanco
 
             Console.WriteLine("\npresiona cualquiera tecla  para continuar con la ejecución del programa");
 
-            Console.ReadKey();
-            Console.Clear();
+            Console.ReadKey(); //Esperamos a que el usuario presione una tecla para continuar
+            Console.Clear(); //Limpiamos la consola
 
             //Cambio de fondo con texto completo.
             Console.BackgroundColor = ConsoleColor.White;
