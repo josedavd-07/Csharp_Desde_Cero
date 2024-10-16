@@ -4,7 +4,13 @@ En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás
 01. Hola mundo en C# usando instrucciones de nivel superior.
 02. Hola Mundo en C# sin uso de instrucciones de nivel superior.
 03. Variables en C#
-04. Tipos de datos: Int , Float  y Double.
+04. Tipos de datos:
+    + int
+    + double
+    + float
+05. Tipo de dato string y sus metodos.
+     + ToUpper()
+     + ToLower()  
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE.txt).
