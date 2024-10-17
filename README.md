@@ -42,7 +42,11 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 
 + Convenciones en C# fuente dofactory.com, [haz click aqui](https://www.dofactory.com/csharp-coding-standards)
 
-
+09. [Tipos de Converciones de datos](09_Conversiones_De_Datos_Implicitas_E_Explicitas/Program.cs)
+    + Conversión Explicita.
+    + Conversión de tipo Implicita.
+    + Conversion de Tipo numerico a string.
+    
 ## Requisitos
 
 + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
