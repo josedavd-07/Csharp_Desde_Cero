@@ -28,13 +28,13 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + ReadLine();
     + Read();
     + ReadKey();
-  + Clase Console y sus metodos fuente Microsoft, [haz click aqui](https://learn.microsoft.com/es-es/dotnet/api/system.console?view=netcore-3.1#methods)
++ Clase Console y sus metodos fuente Microsoft, [haz click aqui](https://learn.microsoft.com/es-es/dotnet/api/system.console?view=netcore-3.1#methods)
 
 07. [Cambio de color en la Consola](07_Cambiar_Colores_A_La_Consola_De_Ejecución/Program.cs):
-     + ForegroundColor
-     + BackgroundColor
-     + ResetColor();
-     + Clear();
+    + ForegroundColor
+    + BackgroundColor
+    + ResetColor();
+    + Clear();
 
      
 08. [Convenciones de nombres y estandares de programación.](08_Convenciones_Para_Nombres_Y_Estandares_De_Programacion/Program.cs)
@@ -47,7 +47,16 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + Conversión de tipo Explicita.
     + Conversión de tipo Implicita.
     + Conversion de Tipo numerico a string.
-    
+
+10. [Conversion de tipo Parsing de string a int.](10_Conversion_Parsing_De_Int_A_String/Program.cs)
+
+    + int.Parse();
+    + int32.Parse();
+
+
+
+
+
 ## Requisitos
 
 + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
