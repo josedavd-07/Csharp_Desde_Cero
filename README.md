@@ -44,7 +44,7 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 
 09. [Tipos de Conversiones de datos.](09_Conversiones_De_Datos_Implicitas_E_Explicitas/Program.cs)
     
-    + Conversión Explicita.
+    + Conversión de tipo Explicita.
     + Conversión de tipo Implicita.
     + Conversion de Tipo numerico a string.
     
