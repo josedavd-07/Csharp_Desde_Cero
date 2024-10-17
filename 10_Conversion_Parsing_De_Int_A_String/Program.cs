@@ -7,7 +7,7 @@ namespace _10_Conversion_Parsing_De_Int_A_String
         static void Main(string[] args)
         {
             /**
-             * Conversiones de tipo  string a int es decir Parsing
+            * Conversiones de tipo  string a int es decir Parsing
             */
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("CONVERSIONES DE TIPO STRING A INT");
