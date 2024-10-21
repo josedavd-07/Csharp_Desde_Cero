@@ -52,6 +52,7 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 
     + int.Parse();
     + int32.Parse();
+    + TryParse();
 
 
 
