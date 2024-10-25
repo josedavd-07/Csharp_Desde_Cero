@@ -56,7 +56,7 @@ namespace _07_Cambiar_Colores_A_La_Consola_De_Ejecución
             Console.ResetColor();
             Console.Clear();
 
-            Console.WriteLine("Fin del programa, espero que te sirva este recurson y te sea de gran ayuda," +
+            Console.WriteLine("Fin del programa, espero que te sirva este recurso y te sea de gran ayuda," +
                 " presiona cualquiera tecla antes de salir, y sigue programando que este camino es maravilloso");
             Console.ReadKey ();
         }
