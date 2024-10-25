@@ -6,23 +6,23 @@ En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás
 
 Haz clic en el nombre de la clase  para ver el código fuente.
 
-01. [Hola mundo en C# usando instrucciones de nivel superior.](01_Hola_Mundo_Con_Instrucciones_De_Nivel_Superior/Program.cs)
+01. [Hola mundo en C# usando instrucciones de nivel superior.](01_Hola_Mundo_Usando_Instrucciones_De_Nivel_Superior/Program.cs)
 
 02. [Hola Mundo en C# sin uso de instrucciones de nivel superior.](02_Hola_Mundo_Sin_Instrucciones_De_Nivel_Superior/Program.cs)
 
 03. [Variables en C#.](03_Variables/Program.cs)
 
-04. [Tipos de datos](04_Tipos_De_Datos/Program.cs):
+04. [Tipos de datos](04_Tipos_De_Datos_Int_Float_Double/Program.cs):
     + int
     + double
     + float
 + Tipos de datos C# fuente Oregoom.com, [haz click aqui](https://oregoom.com/c-sharp/tipos-de-datos/)
 
-05. [Tipo de dato string y sus métodos](05_Tipo_De_Dato_String/Program.cs):
+05. [Tipo de dato string y sus métodos](05_Tipos_De_Datos_String_y_Sus_Metodos/Program.cs):
     + ToUpper()
     + ToLower()  
 
-06. [Clase Console y sus métodos](06_Clase_Console/Program.cs):
+06. [Clase Console y sus métodos](06_Clase_Console_Y_Sus_Metodos/Program.cs):
     + Write();
     + WriteLine();
     + ReadLine();
