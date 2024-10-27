@@ -71,8 +71,17 @@ namespace _10_Conversion_Parsing_De_Int_A_String
             else
             {
                 Console.WriteLine($"\nEl valor de la variable {strinNumeroUnoPruebaConversion} no es convertible a int" +
-                    $" Revisa que tenga caracteres de tipo numero");
+                    $" Revisa que tenga caracteres de tipo numeron");
             }
+
+            //Otro ejemplo de Tryparse
+            string myString = "Hola";
+            int verdad;
+            Int32.TryParse(myString, out verdad);
+
+            Console.WriteLine($"\n\n¿Puedo convertir el string '''{myString}''' en número entero?:" +
+                $" {(verdad == 0 ? $"No, el valor ingresado '{myString}' no es convertible" : "Si es convertible")}");
+
 
             //****************************************
 
