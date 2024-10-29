@@ -54,6 +54,24 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + int32.Parse();
     + TryParse();
 
+11. [Metodos de String y su uso](11_Metodos_De_String/Program.cs)
+
+    + Concat()
+    + Contains()
+    + StartsWith()
+    + EndsWith()
+    + IndexOf()
+    + LastIndexOf()
+    + Replace()
+    + ToUpper()
+    + ToLower()
+    + Trim()
+    + Split()
+    + Join()
+    + Format()
+    + IsNullOrWhiteSpace()
+
+12. [Ejercicios de Metodos Sstring]()
 
 
 
