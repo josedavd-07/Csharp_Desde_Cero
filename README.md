@@ -71,9 +71,12 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + Format()
     + IsNullOrWhiteSpace()
 
-12. [Ejercicios de Metodos Sstring]()
-
-
+12. [Ejercicio Practico, Metodos de  String](12_Ejercicio_Practico_Metodos_String/Program.cs)
++ Usamos los siguientes metodos de string
+    + ToUpper()
+    + ToLower() 
+    + Trim()
+    + substring()
 
 
 ## Requisitos
