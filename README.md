@@ -72,7 +72,7 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + IsNullOrWhiteSpace()
 
 12. [Ejercicio Practico, Metodos de  String](12_Ejercicio_Practico_Metodos_String/Program.cs)
-+ Usamos los siguientes metodos de string
++ Usamos los siguientes metodos de string:
     + ToUpper()
     + ToLower() 
     + Trim()
