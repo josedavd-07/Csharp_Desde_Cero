@@ -47,11 +47,11 @@ namespace _07_Cambiar_Colores_A_La_Consola_De_Ejecución
             Console.BackgroundColor = ConsoleColor.White;
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine($"{mensaje} y ahora junto con el fondo  todo balnco y el texto correspondiente en magenta");
+            Console.WriteLine($"{mensaje} y ahora junto con el fondo  todo blanco y el texto correspondiente en magenta");
 
             Console.WriteLine("\n\npresiona cualquiera tecla  para continuar con la ejecución del programa");
             Console.ReadKey();
-            Console.Clear();
+            Console.Clear(); 
 
             Console.ResetColor();
             Console.Clear();
