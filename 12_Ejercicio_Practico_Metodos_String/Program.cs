@@ -54,9 +54,30 @@ namespace _12_Ejercicio_Practico_Metodos_String
             Console.ResetColor();
             Console.WriteLine($"{nombre.Trim()}");
 
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\nSALIDA DE SUBSTRING:");
+            Console.ResetColor();
             //Imprimir el substring de la cadena
             Console.WriteLine($"\n{nombre.Substring(2)}");
 
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\nSalida de la informacion con el .Format");
+            Console.ResetColor();
+            string miNombreMayusculas = string.Format("\nMi nombre en mayusculas es: {0}", nombre.ToUpper());
+            string miNombreMinusculas = string.Format("\nMi nombre en minusculas es: {0}", nombre.ToLower());
+            string miNombreSinEspacios = string.Format("\nMi nombre sin espacios al inicio y final es: {0}", nombre.Trim());
+            string miNombreSubstring = string.Format("\nMi nombre con un substring es: {0}", nombre.Substring(2));
+
+            //Salidas
+            Console.WriteLine(miNombreMayusculas);
+            Console.WriteLine(miNombreMinusculas);
+            Console.WriteLine(miNombreSinEspacios);
+            Console.WriteLine(miNombreSubstring);
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("\nEsto es todo por hoy  de los datos en distintos formatos usaando los metodoss de string" +
+                " nos vemos en la otra clase, presiona cualquiera tecla para salir");
+            Console.ResetColor();
             Console.ReadKey();
         }
     }
