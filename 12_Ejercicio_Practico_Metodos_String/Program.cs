@@ -78,6 +78,7 @@ namespace _12_Ejercicio_Practico_Metodos_String
             Console.WriteLine("\nEsto es todo por hoy  de los datos en distintos formatos usaando los metodoss de string" +
                 " nos vemos en la otra clase, presiona cualquiera tecla para salir");
             Console.ResetColor();
+
             Console.ReadKey();
         }
     }
