@@ -78,6 +78,9 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + Trim()
     + substring()
 
+13. [Ejercicio practico,metodos de string](13_Ejercicio_Practico_Metodos_String/Program.cs)
+    + indexof()
+    + string.Concat()
 
 ## Requisitos
 
