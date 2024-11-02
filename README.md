@@ -4,6 +4,7 @@ En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás
 ###### Documentos  en pdf sobre la tematica para repasar conceptos, haz click sobre ellos para descargar.
 + [Repaso Conceptos C#](laurence_c.pdf)
 + [Repaso Sintaxis C#](cs-cheat-sheet.pdf)
++ [Tipos de Datos Primitivos en C#](Tipos-de-Datos-Primitivos.pdf)
 
 
 ### Temario
