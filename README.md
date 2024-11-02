@@ -95,6 +95,11 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + char
     + bool
     + string
+
+15. [Declaración y uso de Constantes](15_Constantes/Program.cs)
+    + const
+
+
 ## Requisitos
 
 + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
