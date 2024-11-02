@@ -99,6 +99,9 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 15. [Declaración y uso de Constantes](15_Constantes/Program.cs)
     + const
 
+16. [Ejercicio de Constantes N° 1](16_Ejercicio_Practico_Constantes/Program.cs)
+
+17. [Ejercicio de Constantes N° 2](17_Ejercicio_Practico_Constantes/Program.cs)
 
 ## Requisitos
 
