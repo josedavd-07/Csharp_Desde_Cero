@@ -82,6 +82,19 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + indexof()
     + string.Concat()
 
+14. [Ejercicios practicos  tipos de datos y variables.](14_Ejercicio_Practicas_Tipos_Datos_y_Variables/Program.cs)
++ Documentación de los tipos de datos usado,s da click en el siguiente link para accedeer al recurso. [Da clik aquí](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms228360(v=vs.90)?redirectedfrom=MSDN)
+    + int
+    + uint
+    + byte
+    + sbyte
+    + short
+    + ushort
+    + float
+    + double
+    + char
+    + bool
+    + string
 ## Requisitos
 
 + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
