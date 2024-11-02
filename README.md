@@ -1,6 +1,11 @@
 # C#_Desde_Cero
 En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás ir aprendiendo junto conmigo este maravilloso lenguaje desde lo más básico a lo más avanzado con el siguiente temario a continuación:
 
+###### Documentos  en pdf sobre la tematica para repasar conceptos, haz click sobre ellos para descargar.
++ [Repaso Conceptos C#](laurence_c.pdf)
++ [Repaso Sintaxis C#](cs-cheat-sheet.pdf)
+
+
 ### Temario
 <hr>
 
