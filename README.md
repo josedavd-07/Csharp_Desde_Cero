@@ -129,6 +129,20 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 
 20. [Ejercicio Practico Método Void](20_Ejercicio_Practico_Void/Program.cs)
 
+21. [Metodos con valores de retorno y parametros.](21_Metodos_Valores_de_Retorno_y_Parametros/Program.cs) 
+    + int
+    + double
+
+
+
+
+
+
+
+
+
+
+
 
 ## Requisitos
 
