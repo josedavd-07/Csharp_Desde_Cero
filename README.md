@@ -133,8 +133,9 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + int
     + double
 
-
-
+22. [Ejercicios Practicos, Metodos con valores de retorno y parametros](22_Ejercicio_Practico_Metodos_Retorno_de_Valores_y_Parametros/Program.cs)
+    + int
+    + string
 
 
 
