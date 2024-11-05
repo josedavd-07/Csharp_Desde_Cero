@@ -12,10 +12,13 @@ En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás
 
 Haz clic en el nombre de la clase  para ver el código fuente.
 
+###### Hola mundo en C# con instrucciones de nivel superior y sin instrucciones de nivel superior:
+
 01. [Hola mundo en C# usando instrucciones de nivel superior.](01_Hola_Mundo_Usando_Instrucciones_De_Nivel_Superior/Program.cs)
 
 02. [Hola Mundo en C# sin uso de instrucciones de nivel superior.](02_Hola_Mundo_Sin_Instrucciones_De_Nivel_Superior/Program.cs)
 
+###### Variables,constantes, tipos de datos, conversiones y sus metodos:
 03. [Variables en C#.](03_Variables/Program.cs)
 
 04. [Tipos de datos](04_Tipos_De_Datos_Int_Float_Double/Program.cs):
@@ -108,6 +111,11 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 16. [Ejercicio de Constantes N° 1](16_Ejercicio_Practico_Constantes/Program.cs)
 
 17. [Ejercicio de Constantes N° 2](17_Ejercicio_Practico_Constantes/Program.cs)
+
+
+###### Metodos y funciones:
+
+
 
 ## Requisitos
 
