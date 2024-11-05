@@ -126,6 +126,10 @@ Haz clic en el nombre de la clase  para ver el código fuente.
     + static
     + void
     + Main
+
+20. [Ejercicio Practico Método Void](20_Ejercicio_Practico_Void/Program.cs)
+
+
 ## Requisitos
 
 + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
