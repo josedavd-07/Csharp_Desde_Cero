@@ -12,7 +12,7 @@ En este repositorio gratuito creado por mí, Jose David Carranza Angarita, podrás
 
 Haz clic en el nombre de la clase  para ver el código fuente.
 
-##### Hola mundo en C# con instrucciones de nivel superior y sin instrucciones de nivel superior:
+###### Hola mundo en C# con instrucciones de nivel superior y sin instrucciones de nivel superior:
 
 01. [Hola mundo en C# usando instrucciones de nivel superior.](01_Hola_Mundo_Usando_Instrucciones_De_Nivel_Superior/Program.cs)
 
@@ -113,7 +113,7 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 17. [Ejercicio de Constantes N° 2](17_Ejercicio_Practico_Constantes/Program.cs)
 
 
-#### Metodos y funciones:
+###### Metodos y funciones:
 
 
 
