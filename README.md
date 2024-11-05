@@ -112,11 +112,20 @@ Haz clic en el nombre de la clase  para ver el código fuente.
 
 17. [Ejercicio de Constantes N° 2](17_Ejercicio_Practico_Constantes/Program.cs)
 
-
 ###### Metodos y funciones:
+18. [Teoría Métodos en C#](18_Metodos_Teoría/Program.cs)
+    + Que es un Método.
+    + Especificador de acceso.
+    + Tipo de retorno.
+    + Nombre del Método.
+    + parametros
+    + Cuerpo del Método.
 
-
-
+19. [Método void](19_Metodo_Void/Program.cs)
+    + public
+    + static
+    + void
+    + Main
 ## Requisitos
 
 + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
