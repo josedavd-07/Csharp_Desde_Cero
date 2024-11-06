@@ -174,7 +174,7 @@ Haz clic en el nombre de la clase para ver el código fuente.
 
 26 [Operadores Aritméticos](26_Operadores_Aritmeticos/Program.cs)
 
-    * Operadores Unarios
+    + Operadores Unarios
     + Operadores de Adición
     + Operadores de Sustracción
     + Operadores Matemáticos
