@@ -149,9 +149,11 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + WriteLine()
     + método en forma de tupla quue nos permite multiples valores de retorno.
 
-
-
-
+25. [Manejo de errores, try catch exception y finally](25_Manejo_de_Errores_Try_Catch_y_Finally/Program.cs)
+    + try
+    + catch
+    + finally
+    + int.Parse()
 
 
 
