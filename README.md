@@ -174,16 +174,38 @@ Haz clic en el nombre de la clase para ver el código fuente.
 
 26 [Operadores Aritméticos](26_Operadores_Aritmeticos/Program.cs)
 
-    + Operadores Unarios
-    + Operadores de Adición
-    + Operadores de Sustracción
-    + Operadores Matemáticos
-    + Operador Modular
-    + Operadores Relacionales
-    + Operadores de Igualdad
-    + Operadores Condicionales
+    + Operadores Unarios.
+    + Operadores de Adición.
+    + Operadores de Sustracción.
+    + Operadores Matemáticos.
+    + Operador Modular.
+    + Operadores Relacionales.
+    + Operadores de Igualdad.
+    + Operadores Condicionales.
     + Y (&&)
     + O (||)
+
+27 [Ejercicios prácticos de operadores aritméticos](27_Ejercicio_Practico_Operadores_Aritmeticos/Program.cs)
+    
+    + Operador de igualdad.
+    + Operador condicional.
+    + Operador de desigualdad.
+    + Operador relacional.
+    + operador de negación.
+
+28 [Toma de decisiones, sentencia if](28_Tomas_de_Decisiones_If/Program.cs)
+
+    + if
+    + Operador relacional.   
+    + Operador de igualdad.
+    + int.Parse()
+
+29 [Ejercicios prácticos toma de decisiones sentencia if](29_Ejercicios_Practicos_Toma_de_Decisiones_If/Program.cs)
+    
+    + if
+    + Operador de igualdad
+    + Operador de asignación
+    + Operador relacional.
 
 
 ## Requisitos
