@@ -140,6 +140,16 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + void
     + string
 
+24. [Ingreso de datos en los métodos](24_Ingreso_de_Datos_en_los_Metodos/Program.cs)
+    + int
+    + string
+    + int.Parse()
+    + Write()
+    + ReadLine()
+    + WriteLine()
+    + método en forma de tupla quue nos permite multiples valores de retorno.
+
+
 
 
 
