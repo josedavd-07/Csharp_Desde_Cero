@@ -2,9 +2,10 @@
 En este repositorio gratuito creado por mí, José David Carranza Angarita, podrás ir aprendiendo junto conmigo este maravilloso lenguaje desde lo más básico a lo más avanzado con el siguiente temario a continuación:
 
 ###### Documentos en PDF sobre la temática para repasar conceptos, haz clic sobre ellos para descargar.
-+ [Repaso Conceptos C#](D:\Visual-Studio\C#_Desde_Cero\PDF_DEL_CURSO\cs-cheat-sheet.pdf)
-+ [Repaso Sintaxis C#](cs-cheat-sheet.pdf)
-+ [Tipos de Datos Primitivos en C#](Tipos-de-Datos-Primitivos.pdf)
++ [Repaso Conceptos C#](PDF_DEL_CURSO/cs-cheat-sheet.pdf)
++ [Repaso Sintaxis C#](PDF_DEL_CURSO/laurence_c.pdf)
++ [Tipos de Datos Primitivos en C#](PDF_DEL_CURSO/Tipos-de-Datos-Primitivos.pdf)
+
 
 ### Temario
 <hr>
