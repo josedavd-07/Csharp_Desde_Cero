@@ -21,7 +21,8 @@ Haz clic en el nombre de la clase para ver el código fuente.
 ###### Variables, constantes, tipos de datos, conversiones y sus métodos:
 03. [Variables en C#.](03_Variables/Program.cs)
 
-04. [Tipos de datos](04_Tipos_De_Datos_Int_Float_Double/Program.cs):
+04 [Tipos de datos](04_Tipos_De_Datos_Int_Float_Double/Program.cs):
+
     + int
     + double
     + float
@@ -31,7 +32,8 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + ToUpper()
     + ToLower()  
 
-06. [Clase Console y sus métodos](06_Clase_Console_Y_Sus_Metodos/Program.cs):
+06 [Clase Console y sus métodos](06_Clase_Console_Y_Sus_Metodos/Program.cs):
+
     + Write();
     + WriteLine();
     + ReadLine();
@@ -39,7 +41,8 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + ReadKey();
 + Clase Console y sus métodos fuente Microsoft, [haz clic aquí](https://learn.microsoft.com/es-es/dotnet/api/system.console?view=netcore-3.1#methods)
 
-07. [Cambio de color en la Consola](07_Cambiar_Colores_A_La_Consola_De_Ejecución/Program.cs):
+07 [Cambio de color en la Consola](07_Cambiar_Colores_A_La_Consola_De_Ejecución/Program.cs):
+
     + ForegroundColor
     + BackgroundColor
     + ResetColor();
@@ -50,19 +53,19 @@ Haz clic en el nombre de la clase para ver el código fuente.
 
 + Convenciones en C# fuente dofactory.com, [haz clic aquí](https://www.dofactory.com/csharp-coding-standards)
 
-09. [Tipos de Conversiones de datos.](09_Conversiones_De_Datos_Implicitas_E_Explicitas/Program.cs)
+09 [Tipos de Conversiones de datos.](09_Conversiones_De_Datos_Implicitas_E_Explicitas/Program.cs)
     
     + Conversión de tipo explícita.
     + Conversión de tipo implícita.
     + Conversión de tipo numérico a string.
 
-10. [Conversión de tipo Parsing de string a int.](10_Conversion_Parsing_De_Int_A_String/Program.cs)
+10 [Conversión de tipo Parsing de string a int.](10_Conversion_Parsing_De_Int_A_String/Program.cs)
 
     + int.Parse();
     + int32.Parse();
     + TryParse();
 
-11. [Métodos de String y su uso](11_Metodos_De_String/Program.cs)
+11 [Métodos de String y su uso](11_Metodos_De_String/Program.cs)
 
     + Concat()
     + Contains()
@@ -79,19 +82,22 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + Format()
     + IsNullOrWhiteSpace()
 
-12. [Ejercicio práctico, Métodos de String](12_Ejercicio_Practico_Metodos_String/Program.cs)
-+ Usamos los siguientes métodos de string:
+12 [Ejercicio práctico, Métodos de String](12_Ejercicio_Practico_Metodos_String/Program.cs)
+    
+    + Estos son los metodos de string que usammos en el ejercicio practico:
+
     + ToUpper()
     + ToLower() 
     + Trim()
     + Substring()
 
-13. [Ejercicio práctico, Métodos de string](13_Ejercicio_Practico_Metodos_String/Program.cs)
+13 [Ejercicio práctico, Métodos de string](13_Ejercicio_Practico_Metodos_String/Program.cs)
+
     + IndexOf()
     + string.Concat()
 
-14. [Ejercicios prácticos, tipos de datos y variables.](14_Ejercicio_Practicas_Tipos_Datos_y_Variables/Program.cs)
-+ Documentación de los tipos de datos usados, da clic en el siguiente link para acceder al recurso. [Da clic aquí](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms228360(v=vs.90)?redirectedfrom=MSDN)
+14 [Ejercicios prácticos, tipos de datos y variables.](14_Ejercicio_Practicas_Tipos_Datos_y_Variables/Program.cs)
+
     + int
     + uint
     + byte
@@ -103,8 +109,10 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + char
     + bool
     + string
++ Documentación de los tipos de datos usados, da clic en el siguiente link para acceder al recurso. [Da clic aquí](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms228360(v=vs.90)?redirectedfrom=MSDN)
 
-15. [Declaración y uso de Constantes](15_Constantes/Program.cs)
+15 [Declaración y uso de Constantes](15_Constantes/Program.cs)
+
     + const
 
 16. [Ejercicio de Constantes N° 1](16_Ejercicio_Practico_Constantes/Program.cs)
@@ -112,7 +120,8 @@ Haz clic en el nombre de la clase para ver el código fuente.
 17. [Ejercicio de Constantes N° 2](17_Ejercicio_Practico_Constantes/Program.cs)
 
 ###### Métodos y funciones:
-18. [Teoría Métodos en C#](18_Metodos_Teoría/Program.cs)
+18 [Teoría Métodos en C#](18_Metodos_Teoría/Program.cs)
+
     + Qué es un Método.
     + Especificador de acceso.
     + Tipo de retorno.
@@ -120,7 +129,8 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + Parámetros.
     + Cuerpo del Método.
 
-19. [Método void](19_Metodo_Void/Program.cs)
+19 [Método void](19_Metodo_Void/Program.cs)
+
     + public
     + static
     + void
@@ -128,19 +138,23 @@ Haz clic en el nombre de la clase para ver el código fuente.
 
 20. [Ejercicio práctico Método Void](20_Ejercicio_Practico_Void/Program.cs)
 
-21. [Métodos con valores de retorno y parámetros.](21_Metodos_Valores_de_Retorno_y_Parametros/Program.cs) 
+21 [Métodos con valores de retorno y parámetros.](21_Metodos_Valores_de_Retorno_y_Parametros/Program.cs) 
+   
     + int
     + double
 
-22. [Ejercicios prácticos, Métodos con valores de retorno y parámetros](22_Ejercicio_Practico_Metodos_Retorno_de_Valores_y_Parametros/Program.cs)
+22 [Ejercicios prácticos, Métodos con valores de retorno y parámetros](22_Ejercicio_Practico_Metodos_Retorno_de_Valores_y_Parametros/Program.cs)
+
     + int
     + string
 
-23. [Desafíos de Métodos de retorno con y sin parámetros](23_Desafio_Metodos/Program.cs)
+23 [Desafíos de Métodos de retorno con y sin parámetros](23_Desafio_Metodos/Program.cs)
+
     + void
     + string
 
-24. [Ingreso de datos en los métodos](24_Ingreso_de_Datos_en_los_Metodos/Program.cs)
+24 [Ingreso de datos en los métodos](24_Ingreso_de_Datos_en_los_Metodos/Program.cs)
+
     + int
     + string
     + int.Parse()
@@ -149,20 +163,33 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + WriteLine()
     + método en forma de tupla quue nos permite multiples valores de retorno.
 
-25. [Manejo de errores, try catch exception y finally](25_Manejo_de_Errores_Try_Catch_y_Finally/Program.cs)
+25 [Manejo de errores, try catch exception y finally](25_Manejo_de_Errores_Try_Catch_y_Finally/Program.cs)
+
     + try
     + catch
     + finally
     + int.Parse()
 
+26 [Operadores Aritméticos](26_Operadores_Aritmeticos/Program.cs)
+
+    * Operadores Unarios
+    + Operadores de Adición
+    + Operadores de Sustracción
+    + Operadores Matemáticos
+    + Operador Modular
+    + Operadores Relacionales
+    + Operadores de Igualdad
+    + Operadores Condicionales
+    + Y (&&)
+    + O (||)
 
 
 ## Requisitos
 
-+ Visual Studio 2019 o superior, recomendado Visual Studio 2022.
-+ .NET 6.0 o superior, en este caso usaremos la versión .NET 8.0.
-+ Ganas de aprender, acá comenzarás desde cero hasta lograr manejarte bien en C#.
+    + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
+    + .NET 6.0 o superior, en este caso usaremos la versión .NET 8.0.
+    + Ganas de aprender, acá comenzarás desde cero hasta lograr manejarte bien en C#.
 
 ## Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE.txt).
+    Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE.txt).
 
