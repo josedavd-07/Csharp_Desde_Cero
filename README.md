@@ -14,13 +14,13 @@
 
 Haz clic en el nombre de la clase para ver el código fuente.
 
-###### Hola mundo en C# con instrucciones de nivel superior y sin instrucciones de nivel superior:
+###### **Hola mundo en C# con instrucciones de nivel superior y sin instrucciones de nivel superior:**
 
 01. [Hola mundo en C# usando instrucciones de nivel superior.](01_Hola_Mundo_Usando_Instrucciones_De_Nivel_Superior/Program.cs)
 
 02. [Hola Mundo en C# sin uso de instrucciones de nivel superior.](02_Hola_Mundo_Sin_Instrucciones_De_Nivel_Superior/Program.cs)
 
-###### Variables, constantes, tipos de datos, conversiones y sus métodos:
+###### **Variables, constantes, tipos de datos, conversiones y sus métodos:**
 03. [Variables en C#.](03_Variables/Program.cs)
 
 04 [Tipos de datos](04_Tipos_De_Datos_Int_Float_Double/Program.cs):
@@ -121,7 +121,7 @@ Haz clic en el nombre de la clase para ver el código fuente.
 
 17. [Ejercicio de Constantes N° 2](17_Ejercicio_Practico_Constantes/Program.cs)
 
-###### Métodos y funciones:
+###### **Métodos y funciones:**
 18 [Teoría Métodos en C#](18_Metodos_Teoría/Program.cs)
 
     + Qué es un Método.
@@ -194,5 +194,6 @@ Haz clic en el nombre de la clase para ver el código fuente.
 
 ## Licencia
     Este proyecto está licenciado bajo la Licencia MIT. 
-    Para más detalles, consulta el archivo [LICENSE](LICENSE.txt).
+    Para más detalles, consulta el archivo de al licencia.
++ Haz clic en el siguiente enlace para visualizarla [LICENSE](LICENSE.txt).
 
