@@ -52,8 +52,11 @@ namespace _26_Operadores_Aritmeticos
             //operadores relacionales
 
             bool esMenor;
+            bool esMayor;
             esMenor = num1 < num2;
+            esMayor = num1 > num2;
             Console.WriteLine("El resultado de " + num1 + " < " + num2 + " es igual a " + esMenor);
+            Console.WriteLine("El resultado de " + num1 + " > " + num2 + " es igual a " + esMayor);
 
             //operadores de igualdad
 
