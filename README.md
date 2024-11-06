@@ -193,5 +193,6 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + Ganas de aprender, acá comenzarás desde cero hasta lograr manejarte bien en C#.
 
 ## Licencia
-    Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE.txt).
+    Este proyecto está licenciado bajo la Licencia MIT. 
+    Para más detalles, consulta el archivo [LICENSE](LICENSE.txt).
 
