@@ -207,7 +207,12 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + Operador de asignación
     + Operador relacional.
 
+30 [Toma de decisiones](30_Toma_de_Decisiones_if_else_if_y_Try_Parse./Program.cs)
 
+    + if
+    + else
+    + else if
+    + TryParse()
 ## Requisitos
 
     + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
