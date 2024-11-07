@@ -213,6 +213,13 @@ Haz clic en el nombre de la clase para ver el código fuente.
     + else
     + else if
     + TryParse()
+
+31 [Ejercicios prácticos toma de decisiones](31_Ejercicios_Practicos_If_else_If_y_TryParse/Program.cs)
+
+    + if
+    + else
+    + TryParse()
+
 ## Requisitos
 
     + Visual Studio 2019 o superior, recomendado Visual Studio 2022.
