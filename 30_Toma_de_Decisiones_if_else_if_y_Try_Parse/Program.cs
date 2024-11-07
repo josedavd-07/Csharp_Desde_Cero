@@ -24,6 +24,7 @@ namespace _30_Toma_de_Decisiones_if_else_if_y_Try_Parse
                 Console.WriteLine("\nEl valor ingresado no es válido, se estableció que la temperatura es 0");
             }
 
+            //Sentencias if y  else if
             if (numTemperatura < 20)
             {
                 Console.Write("\nAbrígate!");
