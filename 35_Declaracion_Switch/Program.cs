@@ -56,7 +56,7 @@
                     Console.WriteLine("Ese elemento no forma parte del juego");
                     break;
             }
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }
