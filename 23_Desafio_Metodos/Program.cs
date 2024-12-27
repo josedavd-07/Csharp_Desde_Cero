@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace _23_Desafio_Metodos
 {
@@ -7,7 +8,6 @@ namespace _23_Desafio_Metodos
         static void Main(string[] args)
         {
             //Forma natural de hacerla pero hacemos muchas llamadas hagamoslo de otra forma.
-
             String amigo1 = "Margie";
             String amigo2 = "Esteban";
             String amigo3 = "Abimael";
@@ -21,12 +21,16 @@ namespace _23_Desafio_Metodos
             Console.WriteLine("\n\n");
             //Segunda forma de como hacerlo.
             string friend1 = "Margie";
-            string friend2 = "Esteban"; 
+            string friend2 = "Esteban";
             string friend3 = "Abimael";
             string friend4 = "Hernando";
 
             //SaludarAmigo2(friend1, friend2, friend3, friend4);
             SaludarAmigo2("karol", "luisa", "stiven", "carlos");
+
+            //Saludar a los estudiantes
+            Console.WriteLine("\n\n");
+            Console.WriteLine(saludarEstudiante("Jose David"));
             Console.ReadKey();
         }
 
@@ -60,6 +64,18 @@ namespace _23_Desafio_Metodos
             Console.WriteLine($"¡Hola {friend2}, que tengas un buen día!");
             Console.WriteLine($"¡Hola {friend3}, que tengas un buen día!");
             Console.WriteLine($"¡Hola {friend4}, que tengas un buen día!");
+        }
+
+        /**
+            * EJERCICIO NUMERO 3
+            * 
+            * CREEMOS UN EJERCICIO DE SALUDAR A LOS ESTUDIANTES DE UN COLEGIO
+        */
+
+        public static string saludarEstudiante(string estudiante)
+        {
+            return $"¡Hola {estudiante}, que tengas un buen día!";
+
         }
 
         //No te quedes solo con mi solución hay mas forma de hacerlo puede ser con metodos sin retorno void o como desees
