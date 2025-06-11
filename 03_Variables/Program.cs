@@ -1,52 +1,57 @@
-﻿using System; //Uso del sistema de bibliotecas de C#
+﻿using System; // Biblioteca base de C#
+using System.Text; // Biblioteca para codificación de texto
+
 namespace _03_Variables
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Elmentos de una variable:
+            Console.Title = "Variables en C#";
 
-            /**
-             * Elemento 1 = Tipo de dato
-             * 
-             * Elemento 2 = Nombre de la variable
-             * 
-             *  Elemento 3 = Valor de la variable
-             */
+            //Salida emojis
+            Console.OutputEncoding = Encoding.UTF8; 
 
-            // Tipo nombre = valor;
+            /*
+                * ESTRUCTURA DE UNA VARIABLE EN C#
+                * Sintaxis:
+                * TipoDato nombreVariable = valor;
+            */
 
-            //Variable de tipo entero inicializada con el valor 10
-            int numero = 10;
-            int notaFinalCurso = 500; //Variable de tipo entero inicializada con el valor 500
+            // Declaración de variables
+            int numero = 10;                // Entero
+            float numeroFlotante = 10.5f;   // Flotante (requiere 'f')
+            string texto = "Hola Mundo";    // Cadena de texto
 
-            //Variable de tipo flotante inicializada con el valor 10.5
-            float numeroFlotante = 10.5f;
-            float numeroNotaFinalFlotante = 2.9f;
+            /*
+                * FORMAS DE IMPRIMIR VALORES EN CONSOLA
+            */
 
-            //Variable sin inicializar que luego de cambiara su valor
-            int numero2;
-            string texto;
+            // 1. Formato por índice
+            Console.WriteLine("El valor de 'numero' es: {0}", numero);
 
-            //Mostramos los valores de las variables
+            // 2. Concatenación con +
+            Console.WriteLine("El valor de 'numeroFlotante' es: " + numeroFlotante);
 
-            Console.WriteLine("El valor de la variable numero es: " + numero);
-            Console.WriteLine("\nEl valor de la variable numeroFlotante es: " + numeroFlotante);
-            Console.WriteLine("\nla nota final del curso es : " + notaFinalCurso);
-            Console.WriteLine("\nla nota final del curso en flotante es : " + numeroNotaFinalFlotante);
+            // 3. Interpolación de cadenas
+            Console.WriteLine($"El mensaje de 'texto' es: {texto}");
 
+            /*
+                * IMPRESIÓN MULTILÍNEA CON INTERPOLACIÓN (C# 11+)
+            */
 
-            //Asignamos un nuevo valor a la variable numero
-            Console.Write("\nIngrese un nuevo valor para la variable numero: ");
-            numero2 = int.Parse(Console.ReadLine());
+            Console.WriteLine($"""
 
-            //Aasignamos un nuevo valor a la variable texto
-            Console.Write("\nIngrese un nuevo valor para la variable texto: ");
-            texto = Console.ReadLine();
+                ------------------------------
+                VALORES DE LAS VARIABLES
+                ------------------------------
+                🔢 Numero: {numero}
+                🌊 Flotante: {numeroFlotante}
+                📝 Texto: {texto}
+            """);
 
-            //Esperamos la ejecucion de la consola.
-            Console.WriteLine("\npresione una tecla para cerrar la consola.");
+            // Pausa para ver resultados
+            Console.WriteLine("\nPresiona cualquier tecla para continuar...");
             Console.ReadKey();
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace _05_Tipos_De_Datos_String_y_Sus_Metodos
 {
@@ -6,42 +7,70 @@ namespace _05_Tipos_De_Datos_String_y_Sus_Metodos
     {
         static void Main(string[] args)
         {
-            //Variable de tipo string
-            string myName = "Jose David";
-            string message = $"Hola me permito presentarme mi nombre es: {myName}";
+            Console.Title = "Tipos de datos string y sus métodos";
+            Console.OutputEncoding = Encoding.UTF8;
 
-            //Imprimimos el valor de la forma mas basica
-            Console.WriteLine(myName);
+            /*
+                * En este programa trabajaremos con el tipo de dato `string`
+                * y aprenderemos a aplicar algunos de sus métodos más comunes:
+                * - ToUpper() → Convierte el texto a mayúsculas
+                * - ToLower() → Convierte el texto a minúsculas
+            */
 
-            //Imprimimos el valor de la variable con interpolacion de string y un mensaje adicional
-            Console.WriteLine($"\nHola me permito presentarme mi nombre es: {myName}");
+            // ==========================
+            // DECLARACIÓN DE VARIABLES STRING
+            // ==========================
 
-            //Imprimimos el valor de la variable con concatenacion de string y un mensaje adicional
-            Console.WriteLine($"\n{message} {myName}\n");
-            Console.WriteLine(message);
+            string nombre = "Jose David";
+            string mensaje = $"Hola, me permito presentarme. Mi nombre es: {nombre}";
 
-            //Mostrar mensajes con los metodos de string
+            // ==========================
+            // IMPRESIÓN BÁSICA DE STRINGS
+            // ==========================
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("\nIMPRESIÓN DE STRINGS: \n");
+            Console.ResetColor();
+
+            // 1. Imprimir solo el nombre
+            Console.WriteLine(nombre);
+
+            // 2. Imprimir mensaje con interpolación
+            Console.WriteLine($"\nHola, me permito presentarme. Mi nombre es: {nombre}");
+
+            // 3. Imprimir dos strings juntos
+            Console.WriteLine($"\n{mensaje} {nombre}");
+
+            // 4. Imprimir directamente la variable `mensaje`
+            Console.WriteLine($"\n{mensaje}");
+
+            // ==========================
+            // MÉTODOS DE LA CLASE STRING
+            // ==========================
+
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("\nMENSAJES CON METODOS DE STRING:");
+            Console.WriteLine("\nMÉTODOS DE STRING:");
             Console.ResetColor();
 
-            //Metodo ToUpper() convierte el texto a mayusculas
+            // ToUpper()
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nMENSAJES CON METODO ToUpper()");
+            Console.WriteLine("\n→ Método ToUpper():");
             Console.ResetColor();
+            Console.WriteLine($"Nombre en mayúsculas: {nombre.ToUpper()}");
 
-            Console.WriteLine($"\nEste mensaje usa  el Metodo ToUpper() para poner todo el" +
-                $" siguinte texto de mi nombre en MAYUSCULA: {myName.ToUpper()}");
-
-            //Metodo ToLower() convierte el texto a minusculas
+            // ToLower()
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nMENSAJES CON METODO ToLower()");
+            Console.WriteLine("\n→ Método ToLower():");
             Console.ResetColor();
+            Console.WriteLine($"Nombre en minúsculas: {nombre.ToLower()}");
 
-            Console.WriteLine($"\nEste mensaje usa  el Metodo ToLower() para poner todo" +
-                $" el siguinte texto de mi nombre en minuscula: {myName.ToLower()}");
+            // ==========================
+            // FINALIZACIÓN
+            // ==========================
 
-            Console.WriteLine("\nPresione una tecla para cerrar la consola.");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("\nPresiona una tecla para cerrar la consola.");
+            Console.ResetColor();
             Console.ReadKey();
         }
     }

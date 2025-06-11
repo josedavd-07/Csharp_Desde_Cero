@@ -6,9 +6,10 @@ namespace _10_Conversion_Parsing_De_Int_A_String
     {
         static void Main(string[] args)
         {
-            /**
-            * Conversiones de tipo  string a int es decir Parsing
-            */
+            // ──────────────────────────────────────────────
+            // CONVERSIONES DE TIPO STRING A INT (Parsing)
+            // ──────────────────────────────────────────────
+
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("CONVERSIONES DE TIPO STRING A INT");
             Console.ResetColor();
@@ -16,112 +17,125 @@ namespace _10_Conversion_Parsing_De_Int_A_String
             string miPrimerNumeroString = "200";
             string miSegundoNumeroString = "5";
 
-            Console.WriteLine($"\nEl resultado de estos dos numeros al concatenarnos o sumarlos nos va a dar" +
-                $" como resultado 2005 y no 205 como seria correspondientemente."
-            );
+            Console.WriteLine($"""
+                
+                Si sumamos estos dos números como strings: "{miPrimerNumeroString}" + "{miSegundoNumeroString}", 
+                el resultado será "2005" y no "205" como sería en una suma matemática.
+                
+                Esto ocurre porque al sumar strings se realiza una concatenación, no una operación matemática.
+                """);
 
-            // Operacion de suma entre los dos valores de tipo string
+            // Concatenación de strings
             string resultadoSuma = miPrimerNumeroString + miSegundoNumeroString;
-            Console.WriteLine($"\nEl resultado de la suma de los valores de" +
-                $" {miPrimerNumeroString} + {miSegundoNumeroString} da como resultado: {resultadoSuma}"
-            );
+
+            Console.WriteLine($"""
+                
+                Resultado de la suma (concatenación) de los strings:
+                {miPrimerNumeroString} + {miSegundoNumeroString} = {resultadoSuma}
+                """);
+
+            // ──────────────────────────────────────────────
+            // Conversión usando int.Parse
+            // ──────────────────────────────────────────────
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nCONVERSIONES DE LOS VALORES DE STRING A INT CON int.Parse");
+            Console.WriteLine("\nCONVERSIÓN DE STRING A INT CON int.Parse");
             Console.ResetColor();
 
-            // Numero convertido usando el metodo Parse con el dato int.parse
-            // Creamos una variable de tipo int y pasamos el valor de la variable string a int
-            // Y nos quedaria  ahora si la suma de los valores de los numeros ya que el datos
-            // ya que ahora ya no es un string si no un int.
             int numeroUnoConvertido = int.Parse(miPrimerNumeroString);
             int numeroDosConvertido = int.Parse(miSegundoNumeroString);
-            int resultadoSumaNumerosConvertidos = numeroUnoConvertido + numeroDosConvertido;
-            Console.WriteLine($"\nEl resultado de la suma de los valores de los numeros Convertidos desde" +
-                $" string a int son el numero {numeroUnoConvertido} + {numeroDosConvertido}" +
-                $"  da como resultado el valor de: {resultadoSumaNumerosConvertidos}"
-            );
 
-            /**
-            * Conversion de tipo string a int32.TryParse , Manera uno de hacerlo
-            */
+            int resultadoSumaNumerosConvertidos = numeroUnoConvertido + numeroDosConvertido;
+
+            Console.WriteLine($"""
+                
+                Después de convertir los strings a números enteros la suma da como  resultado:
+                {numeroUnoConvertido} + {numeroDosConvertido} = {resultadoSumaNumerosConvertidos}
+                """);
+
+            // ──────────────────────────────────────────────
+            // Conversión usando int.TryParse
+            // ──────────────────────────────────────────────
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nCONVERSIONES DE LOS VALORES DE STRING A INT CON int32.TryParse");
+            Console.WriteLine("\nCONVERSIÓN DE STRING A INT CON int.TryParse");
             Console.ResetColor();
 
-            string strinNumeroUnoPruebaConversion = "19";
-            int esConvertible;
-            bool conversion = int.TryParse(strinNumeroUnoPruebaConversion, out esConvertible);
+            string cadenaPrueba = "19";
+            int numeroConvertido;
+            bool conversionExitosa = int.TryParse(cadenaPrueba, out numeroConvertido);
 
-            if (conversion)
+            if (conversionExitosa)
             {
-                Console.Write($"\nEl valor de la variable de tipo string");
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.Write($" - string strinNumeroUnoPruebaConversion = \"19\" - ");
-                Console.ResetColor();
-                Console.Write($" al mirar su tipo de dato podemos observar que es de tipo" +
-                    $" {strinNumeroUnoPruebaConversion.GetType()} y al convertirlo a int por medio de");
-                Console.ForegroundColor = ConsoleColor.Blue;
-                Console.Write($" - int.TryParse(strinNumeroUnoPruebaConversion, out esConvertible); - ");
-                Console.ResetColor();
-                Console.Write($" Podemos mirar que su valor cambio al int: {esConvertible} , y su valor" +
-                    $" que contiene  es de tipo: {esConvertible.GetType()}");
+                Console.WriteLine($"""
+                    
+                    La cadena "{cadenaPrueba}" fue convertida correctamente a int: {numeroConvertido}
+                    Tipo de dato original: {cadenaPrueba.GetType()}
+                    Tipo de dato convertido: {numeroConvertido.GetType()}
+                    """);
             }
             else
             {
-                Console.WriteLine($"\nEl valor de la variable {strinNumeroUnoPruebaConversion} no es convertible a int" +
-                    $" Revisa que tenga caracteres de tipo numeron");
+                Console.WriteLine($"""
+                    
+                    El valor "{cadenaPrueba}" no se pudo convertir a int.
+                    Verifica que el contenido sea numérico.
+                    """);
             }
 
-            //Otro ejemplo de Tryparse
-            string myString = "Hola";
-            int verdad;
-            Int32.TryParse(myString, out verdad);
+            // Segundo ejemplo: conversión fallida
+            string cadenaNoValida = "Hola";
+            bool resultadoConversion = int.TryParse(cadenaNoValida, out int numeroInvalido);
 
-            Console.WriteLine($"\n\n¿Puedo convertir el string '''{myString}''' en número entero?:" +
-                $" {(verdad == 0 ? $"No, el valor ingresado '{myString}' no es convertible" : "Si es convertible")}");
+            Console.WriteLine($"""
+                
+                ¿Se puede convertir el string "{cadenaNoValida}" a un número entero? 
+                {(!resultadoConversion ? "No, el valor ingresado no es convertible." : "Sí es convertible.")}
+                """);
 
-
-            //****************************************
-
-            // Numero convertidos usando el int32.Parse
-            // Creamos una variable de tipo int y pasamos el valor de la variable string a int
-            // Y nos quedaria  ahora si la suma de los valores de los numeros ya que el datos
-            // ya que ahora ya no es un string si no un int.
+            // ──────────────────────────────────────────────
+            // Conversión usando Int32.Parse
+            // ──────────────────────────────────────────────
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\n\nCONVERSIONES DE LOS VALORES DE STRING A INT YA CONVERTIDOS CON Int32.Parse");
+            Console.WriteLine("\nCONVERSIÓN DE STRING A INT CON Int32.Parse");
             Console.ResetColor();
 
-            // Declaracion de variables usadas para la conversion de string a int32.Parse
-            string stringNumeroUnoPruebaConversion = "19";
-            string stringNumeroDosPruebaConversion = "81";
+            string stringNumeroUno = "19";
+            string stringNumeroDos = "81";
 
-            // Conversion de string a int usando el metodo Int32.Parse
-            int _numeroUnoConvertido = Int32.Parse(stringNumeroUnoPruebaConversion);
-            int _numeroDosConvertido = Int32.Parse(stringNumeroDosPruebaConversion);
-            int _resultadoSumaNumerosConvertidos = _numeroUnoConvertido + _numeroDosConvertido;
-            Console.WriteLine($"\nEl resultado de la suma de los valores de los numeros Convertidos desde" +
-                $" string a int son el numero {_numeroUnoConvertido} + {_numeroDosConvertido}" +
-                $"  da como resultado el valor de: {_resultadoSumaNumerosConvertidos}"
-            );
+            int numeroUno = Int32.Parse(stringNumeroUno);
+            int numeroDos = Int32.Parse(stringNumeroDos);
 
-            /**
-            * Ejercicio de practica conversion con int.Parse.
-            *
-            * Haz el parsing para convertir el contenido de la variable
-            * miString a número entero y almacenarlo en la variable miInt
-            */
+            int resultadoSumaInt32 = numeroUno + numeroDos;
+
+            Console.WriteLine($"""
+                
+                Después de convertir los strings a números enteros:
+                {numeroUno} + {numeroDos} = {resultadoSumaInt32}
+                """);
+
+            // ──────────────────────────────────────────────
+            // EJERCICIO PRÁCTICO
+            // ──────────────────────────────────────────────
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nEJERCICIO DE PRACTICA CONVERSION CON int.Parse");
+            Console.WriteLine("\nEJERCICIO PRÁCTICO: Conversión con int.Parse");
             Console.ResetColor();
 
             string miString = "22";
             int miInt = int.Parse(miString);
 
-            Console.WriteLine($"\nLa suma del valor int luego de ser convertido es de : {miInt}");
+            Console.WriteLine($"""
+                
+                El valor de la cadena "{miString}" convertido a int es: {miInt}
+                """);
+
+            // ──────────────────────────────────────────────
+            // Final
+            // ──────────────────────────────────────────────
+
+            Console.WriteLine("\nPresiona una tecla para salir...");
             Console.ReadKey();
         }
     }

@@ -6,155 +6,93 @@ namespace _08_Convenciones_Para_Nombres_Y_Estandares_De_Programacion
     {
         static void Main(string[] args)
         {
-            //Convenciones de escritura existentes
+            // CONVENCIONES DE ESCRITURA EN PROGRAMACIÓN
 
-            //camelCase 
-            //Ejemplo: nombreDeVariable
+            // Tipos de notación:
+            // - camelCase: nombreDeVariable
+            // - PascalCase: NombreDeVariable
+            // - snake_case: nombre_de_variable
 
-            //Pascal Case
-            //Ejemplo: NombreDeVariable
-
-            //Snake Case
-            //Ejemplo: nombre_de_variable
-
-
-            /*Las usadas en C# son:*/
-
-            //PascalCase
-            //camelCase
-
-            //**************************
-
-            //Para las clases utilizaremos PascalCase
-
-            //Ejemplo:
-            /*
-             
-              public class persona
-              {
-                  //Codigo de la clase
-              }
-
+            /* 
+             * En C# se utilizan principalmente:
+             * - PascalCase → para clases, métodos públicos y propiedades
+             * - camelCase  → para variables locales, parámetros y campos privados (con _ en algunos casos)
              */
 
-            //**************************
-
-            //Para las variables utilizaremos camelCase
-
-            //Ejemplo:
-            /*
-             
-              int edadPersona = 20;
-
-             */
-
-            //**************************
-
-            // para los metodos utilizaremos camelCase
-
-            //Ejemplo:
+            // ──────────────────────────────────────────────
+            // Convención para clases → PascalCase
 
             /*
-                public void mostrarMensaje()
-                {
-                
-                }
-             
-             */
+             public class Persona
+             {
+                 // Código de la clase
+             }
+            */
 
-            //**************************
-
-            //No utilizar numeros al inicio de los nombres de las variables
-
-            //Ejemplo:
+            // ──────────────────────────────────────────────
+            // Convención para variables → camelCase
 
             /*
-             
-              int 1numero = 10;
+             int edadPersona = 20;
+            */
 
-             */
-
-            //Forma correcta de nombrar la variable
-
-            //Ejemplo:
+            // ──────────────────────────────────────────────
+            // Convención para métodos → PascalCase (para públicos) / camelCase (para privados)
 
             /*
-             
-            
-            int numero1 = 10;
+             public void MostrarMensaje()
+             {
+                 // Código del método
+             }
+            */
 
-             */
-
-            //**************************
-
-            //No utilizar guiones al inicio de los nombres de las variables
-
-            //Ejemplo:
+            // ──────────────────────────────────────────────
+            // No comenzar nombres con números
 
             /*
-             
-              int -numero = 10;
+             int 1numero = 10;    // ❌ Incorrecto
+             int numero1 = 10;    // ✅ Correcto
+            */
 
-             */
-
-            //Forma correcta de nombrar la variable es con guion bajo en algunos caso se suele utilizar
-            //para campos privados de una clase
-
-            //Ejemplo:
+            // ──────────────────────────────────────────────
+            // No usar guiones en los nombres
 
             /*
-             
-              private int _numero = 10;
+             int -numero = 10;    // ❌ Incorrecto
+            */
 
-             */
-
-            //**************************
-
-            //No utlizar notacion hungara
-
-            //Ejemplo:
+            // En campos privados, a veces se usa guion bajo (_):
 
             /*
-             
-              int ctrUsers;
+             private int _numero = 10;    // ✅ Correcto en campos privados
+            */
 
-             */
-
-            //Forma correcta de nombrar la variable
-
-            //Ejemplo:
+            // ──────────────────────────────────────────────
+            // Evitar notación húngara (prefijos con tipo)
 
             /*
-             
-              int controlUsuarios;
+             int ctrUsers;               // ❌ Incorrecto
+             int controlUsuarios;        // ✅ Correcto
+            */
 
-             */
-
-            //**************************
-
-            //No utilizar nombres de variables que sean palabras reservadas del lenguaje
-
-            //Ejemplo:
+            // ──────────────────────────────────────────────
+            // No usar palabras reservadas como nombres de variables
 
             /*
-             
-              int int = 10;
+             int int = 10;               // ❌ Incorrecto
+             int numero = 10;            // ✅ Correcto
+            */
 
-             */
+            // ──────────────────────────────────────────────
+            // Final
 
-            //Forma correcta de nombrar la variable
+            Console.WriteLine("""
+                Esto es todo. Espero que esta clase sobre convenciones y estándares de nombres en C# te haya sido útil.
+               
+                """);
 
-            //Ejemplo:
-
-            /*
-             
-              int numero = 10;
-
-             */
-
-            //**************************
-
-            //Esto es tod espero que te haya sido de gran ayuda y nos vemos en la siguiente clase sigue aprendiendo
+            Console.WriteLine("Nos vemos en la siguiente clase. ¡Sigue aprendiendo y programando!");
+            Console.ReadKey();
         }
     }
 }

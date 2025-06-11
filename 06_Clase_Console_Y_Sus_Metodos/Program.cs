@@ -6,107 +6,104 @@ namespace _06_Clase_Console_Y_Sus_Metodos
     {
         static void Main(string[] args)
         {
-            //Clase Console
+            // Título
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("\nMETODOS DE LA CLASE CONSOLE");
+            Console.WriteLine("\nMÉTODOS DE LA CLASE CONSOLE");
             Console.ResetColor();
 
-
-            //Metodo WriteLine(); de la clase Console
+            // ===============================
+            // Método WriteLine()
+            // ===============================
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nMetodo WriteLine();");
+            Console.WriteLine("\nMétodo WriteLine()");
             Console.ResetColor();
 
-            //Metodo WriteLine(); de la clase Console
             Console.WriteLine("\nHola, Mundo!");
-            Console.WriteLine("\nHola yo Console.WriteLine(); soy un metodo de la clase Console" +
-                " y los datos que doy salida lo hago con un salto de linea");
+            Console.WriteLine("Yo soy Console.WriteLine(), un método que muestra texto y luego hace un salto de línea.");
 
-            //Metodo Write(); de la clase Console
+            // ===============================
+            // Método Write()
+            // ===============================
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nMetodo Write();");
+            Console.WriteLine("\nMétodo Write()");
             Console.ResetColor();
 
-            Console.Write("\nHola, Mundo!");
-            Console.Write("\n\nHola yo Console.Write() soy un metodo de la clase Console" +
-                " y los datos que doy salida lo hago sin un salto de linea como veras mi otro compañero Write" +
-                " seguira explicando"
-            );
+            Console.Write("Hola, Mundo!");
+            Console.Write("\nYo soy Console.Write(), y escribo en la consola sin hacer un salto de línea.");
+            Console.Write(" Junto con mis hermanos, podemos escribir texto seguido, línea tras línea.");
 
-            Console.Write(" que es lo que hace el metodo Write();, como te dije" +
-                " escribo junto con mis demas hermanos write un texdto en muchas lineas pero somois uno solo");
-
-
-            //Metodo Read(); de la clase Console
+            // ===============================
+            // Método Read()
+            // ===============================
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\n\nMetodo Read();");
+            Console.WriteLine("\n\nMétodo Read()");
             Console.ResetColor();
 
-            Console.WriteLine("\nHola yo soy Console.Read(); soy un metodo de la clase Console" +
-                " y espero que ingreses un dato por teclado para poder leerlo" +
-                " ademas puedo devolver un valor ASCII de lo que ingresaste"
-            );
+            Console.WriteLine("\nYo soy Console.Read(), espero que ingreses un valor por teclado.");
+            Console.WriteLine("Devuelvo el código ASCII del primer carácter ingresado.");
 
-            //Metodo ReadLine(); de la clase Console
+            // ===============================
+            // Método ReadLine()
+            // ===============================
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nMetodo ReadLine();");
+            Console.WriteLine("\nMétodo ReadLine()");
             Console.ResetColor();
 
-            Console.WriteLine("\nHola yo soy Console.ReadLine(); soy un metodo de la clase Console" +
-                " y espero que ingreses un dato por teclado para poder leerlo" +
-                " ademas puedo devolver un valor de tipo string o int de lo que ingresaste" +
-                "o el valor que lo hayas convertido"
-            );
+            Console.WriteLine("\nYo soy Console.ReadLine(), espero una línea completa de texto y la devuelvo como string.");
 
-            //Metodo ReadKey(); de la clase Console
+            // ===============================
+            // Método ReadKey()
+            // ===============================
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nMetodo ReadKey();");
+            Console.WriteLine("\nMétodo ReadKey()");
             Console.ResetColor();
 
-            Console.WriteLine("\nHola yo soy Console.ReadKey(); soy un metodo de la clase Console" +
-                " que  espero la ejecucion de consola al presionar cualquiera tecla" +
-                " y esto nos permite ya sea  esperar la ejecucion del programa" +
-                " y luego de todo ya salir con presionar alguna tecla" +
-                " o esperar a que se ejecute un nuevo codigo por ejemplo antes de un Console.Clear();"
-            );
+            Console.WriteLine("\nYo soy Console.ReadKey(), espero que presiones una tecla y capturo esa entrada.");
+            Console.WriteLine("Puedo ser útil para pausar la ejecución del programa o detectar teclas presionadas.");
 
-            //Ejemplos de los metodos Read(); y ReadLine();
+            // ===============================
+            // EJEMPLOS
+            // ===============================
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nEjemplos de los metodos Read(); y ReadLine();");
+            Console.WriteLine("\n\nEJEMPLOS DE LOS MÉTODOS ReadLine() Y Read()");
             Console.ResetColor();
-            
-            //Metodo ReadLine(); que nos devuelve el valor de tipo string
+
+            // Leer con ReadLine()
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("\nMetodo ReadLine();");
+            Console.WriteLine("\nEjemplo: ReadLine()");
             Console.ResetColor();
 
-            Console.Write("\nIngrese un  valor y presione Enter: ");
+            Console.Write("Ingrese un valor y presione Enter: ");
             string leerEntrada = Console.ReadLine();
-            Console.WriteLine($"\nEl valor ingresado es: {leerEntrada}");
+            Console.WriteLine($"El valor ingresado es: {leerEntrada}");
 
-            //Metodo Read(); que nos devuelve el valor ASCII
+            // Leer con Read()
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("\nMetodo Read();");
+            Console.WriteLine("\nEjemplo: Read()");
             Console.ResetColor();
 
-            //Aqui se muestra el valor ASCII de la tecla presionada
-
-            Console.Write("\nIngrese cualquier valor o toque alguna tecla para saber su valor en ASCCI: ");
+            Console.Write("Presiona una tecla para obtener su valor ASCII: ");
             int valorAscii = Console.Read();
-            Console.WriteLine($"\nEl valor ASCII del valor ingresado es: {valorAscii}");
+            Console.WriteLine($"El valor ASCII de la tecla ingresada es: {valorAscii}");
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\n***********************************");
+            // Leer con ReadKey()
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.WriteLine("\nEjemplo: ReadKey()");
             Console.ResetColor();
 
-            //Aqui se muestra el valor ASCII de la tecla presionada y la tecla que sde presiono
-            Console.Write("\nIngrese cualquier valor o toque alguna tecla para saber su valor en ASCII: ");
+            Console.Write("Presiona una tecla para obtener su información: ");
             ConsoleKeyInfo keyInfo = Console.ReadKey();
-            int valorAsciiInput = keyInfo.KeyChar;
-            Console.WriteLine($"\n\nLa tecla presionada es: {keyInfo.Key}");
-            Console.WriteLine($"\nEl valor ASCII del valor ingresado es: {valorAsciiInput}");
-            Console.ReadKey();
+            int asciiDeLaTecla = keyInfo.KeyChar;
 
+            Console.WriteLine($"\n\nTecla presionada: {keyInfo.Key}");
+            Console.WriteLine($"Valor ASCII: {asciiDeLaTecla}");
+
+            // Finalizar
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("\n\nPresiona cualquier tecla para finalizar...");
+            Console.ResetColor();
+            Console.ReadKey();
         }
     }
 }
+ 
